@@ -1,0 +1,5 @@
+<launch>
+    <arg name="map_file" default="/home/user/catkin_ws/src/my_summit_mapping/maps/map02.yaml"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+</launch>
+
